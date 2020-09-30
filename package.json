@@ -1,0 +1,23 @@
+{
+  "name": "tooling",
+  "version": "1.0.0",
+  "description": "School assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kristbjorgosk/bootstrap-assignment.git"
+  },
+  "author": "kristbjorg",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kristbjorgosk/bootstrap-assignment/issues"
+  },
+  "homepage": "https://github.com/Kristbjorgosk/bootstrap-assignment#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "jquery": "^3.5.1"
+  }
+}
