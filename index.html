@@ -16,19 +16,23 @@
   </head>
   <body  style="margin: auto;">
 
-    <!-- navbar responsive menu "hamburger" -->
-    <div class="fixed-top" style="position: relative;" >
+    <!-- start of navbar responsive menu "hamburger" and logo -->
+    <div>
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff; font-size: 24px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);">
-        <a style="padding-left: 4rem;" class="navbar-brand" href="#"><img src="img/logo.png" width="60" height="60" class="logo" alt="logo">FILM FESTIVAL</a>
+        <a class="navbar-brand" href="#"><img src="img/logo.png" width="60" height="60" class="logo" alt="logo">FILM FESTIVAL</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <!-- end of navbar responsive menu "hamburger" and logo -->
 
-           <!-- navbar links -->
-          <ul style="font-family: 'Stint Ultra Expanded', cursive; font-size: 1rem; padding-right: 4rem;" class="navbar-nav ml-auto">
+           <!-- start of navbar links -->
+          <ul style="font-family: 'Stint Ultra Expanded', cursive; font-size: 1rem;" class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">MOVIES <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">TICKETS <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">FILMS <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" href="schedule.html">SCHEDULE <span class="sr-only">(current)</span></a>
@@ -43,10 +47,10 @@
         </div>
       </nav>
     </div>
-
-      <!-- end of navbar -->
+      <!-- end of navbar links -->
 
       <!-- first section -->
+      <!-- text are and button -->
       <section  style="padding: 3rem 0 3rem 0;font-family: 'Stint Ultra Expanded', cursive; background-color: #524141; color:  white;">
       <div class="container" >
           <div class="row">
@@ -61,7 +65,6 @@
                   Quam, sequi?</p>
                   <a type="button" style="border: none; margin-bottom: 3rem; color: #524141;" class="btn btn-light btn-lg btn-block" href="schedule.html" role="button">VIEW SCHEDULE</a>
               </div>
-              
               <div class="col-lg-6">
               <!-- start of carousel -->
               <div  id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -97,10 +100,8 @@
     </section>
     <!-- end of first sections -->
 
- 
-
-    <!-- start of film cards section-->
-    <div class="cards" style="margin: auto; max-width: 70rem; padding-top: 3rem; ">
+    <!-- start of first film cards section-->
+    <div class="cards" style="margin: auto; padding: 2rem; max-width: 70rem; padding-top: 3rem; ">
     <div class="card-deck">
       <div class="card">
         <img src="img/euphoria.jpg" class="card-img-top" alt="...">
@@ -128,11 +129,11 @@
       </div>
     </div>
   </div>
-  <a type="button" style="border: none; max-width: 70rem; margin:auto; margin-top: 3rem; margin-bottom: 3rem; background-color:  #524141; font-family: 'Stint Ultra Expanded', cursive; " class="btn btn-dark btn-lg btn-block" href="schedule.html" role="button">VIEW MORE</a>
-    <!-- end of film cards section -->
+  <a href="schedule.html" class="btn btn-dark btn-lg btn-block" style="border: none; max-width: 68rem; margin:auto; margin-top: 3rem; margin-bottom: 3rem; background-color:  #524141; font-family: 'Stint Ultra Expanded', cursive; ">VIEW MORE</a>
+  <!-- end of first film cards section -->
 
     <!-- start of 2nd text section  -->
-    <section style="font-family: Alegreya Sans SC; background-color: rgb(126, 45, 31); color: white; margin-bottom: 3rem;">
+    <section style="font-family: Alegreya Sans SC; background-color: rgb(126, 45, 31); color: white; margin-bottom: 2rem;">
       <div class="container">
           <div class="row">
               <div class="col">
@@ -149,7 +150,7 @@
     <!-- end of 2nd text section -->
 
     <!-- start of 2nd film cards section-->
-    <div class="cards" style="margin: auto; max-width: 70rem;">
+    <div class="cards" style="margin: auto; padding: 2rem; max-width: 70rem;">
       <div class="card-deck">
         <div class="card">
           <img src="img/atnman.jpg" class="card-img-top" alt="...">
@@ -174,9 +175,7 @@
         </div>
       </div>
     </div>
-   
-    <a type="button" style="border: none; max-width: 70rem; margin:auto; margin-top: 3rem; margin-bottom: 3rem; background-color: rgb(126, 45, 31); font-family: 'Stint Ultra Expanded', cursive; " class="btn btn-dark btn-lg btn-block" href="schedule.html" role="button">VIEW MORE</a>
-    
+    <a href="schedule.html" class="btn btn-dark btn-lg btn-block" style="border: none; max-width: 68rem; margin:auto; margin-top: 3rem; margin-bottom: 3rem; background-color: rgb(126, 45, 31); font-family: 'Stint Ultra Expanded', cursive; ">VIEW MORE</a>
    <!-- end of 2ndfilm cards section -->
 
   <!-- start of footer -->
@@ -191,9 +190,5 @@
   </footer>
 <!-- end of footer -->
         
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
   </body>
 </html>
