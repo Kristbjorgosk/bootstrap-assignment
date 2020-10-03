@@ -8,72 +8,177 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-
-    <title>Where work happens Slack</title>
+    <link href="https://fonts.googleapis.com/css2?family=Stint+Ultra+Expanded&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap" rel="stylesheet">
+    <title>FILM FESTIVAL</title>
   </head>
-  <body>
+  <body style="color: #000000; margin: auto;">
 
     <!-- navbar responsive menu "hamburger" -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <a class="navbar-brand" href="#"><img src="https://a.slack-edge.com/4a5c4/marketing/img/icons/icon_slack.svg" width="100" height="25" class="c-slacklogo--white" alt="Slack"></a>
+    <div class="fixed-top" style="position: relative;" >
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff; font-size: 24px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.06);">
+        <a style="padding-left: 4rem;" class="navbar-brand" href="#"><img src="img/logo.png" width="60" height="60" class="logo" alt="logo">FILM FESTIVAL</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
 
            <!-- navbar links -->
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <ul style="font-family: 'Stint Ultra Expanded', cursive; font-size: 1rem; padding-right: 4rem;" class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Why Slack? <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="#">MOVIES <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Solutions <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#">SCHEDULE <span class="sr-only">(current)</span></a>
               </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Resorces</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">ABOUT THE FESTIVAL<span class="sr-only">(current)</span></a>
               </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Enterprise</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-            </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">LOCATION<span class="sr-only">(current)</span></a>
+              </li>
           </ul>
-          <!-- navbar button -->
-          <button type="button" class="btn btn-secondary btn-lg">TRY FOR FREE</button>
         </div>
       </nav>
+    </div>
+
       <!-- end of navbar -->
 
       <!-- first section -->
-      <section id="hero">
-      <div class="container-fluid">
+      <section  style="padding: 3rem 0 3rem 0;font-family: 'Stint Ultra Expanded', cursive; background-color: #524141; color:  white;">
+      <div class="container" >
           <div class="row">
-              <div class="col-sm-6">
-                  <h1>Welcome to your new HQ</h1>
-                  <p>Teamwork can be hard, messy, complicated… and still the best way to work. 
-                      That’s why we made Slack — a place where people get work done, together.</p>
+              <div class="col-lg-6">
+                <h1>Welcome to the film festival 2020</h1>
+                <p style="font-family: 'Pontano Sans', sans-serif;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Totam esse omnis, <br>libero natus consequatur et quo nobis architecto 
+                  accusamus vel quae? <br>Quis reiciendis tempore perspiciatis accusamus nemo quod? 
+                  Quam, sequi?<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Totam esse omnis, libero natus consequatur et quo nobis architecto <br>
+                  accusamus vel quae? Quis reiciendis tempore perspiciatis accusamus nemo quod? 
+                  Quam, sequi?</p>
+                  <a type="button" style="margin-bottom: 3rem; color: #524141;" class="btn btn-light btn-lg btn-block" href="schedule.html" role="button">VIEW SCHEDULE</a>
+              </div>
+              
+              <div class="col-lg-6">
+              <!-- start of carousel -->
+              <div  id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/outdoor.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/beach.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/camera.jpg" class="d-block w-100" alt="...">
+                  </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+              <!-- end of carasouel -->
           </div>
-     </div>
-
-     <button  type="button" class="btn btn-secondary btn-lg-fluid ">Large button</button>
-    
-     <div class="container-flex">
-        <div class="row">
-            <div class="col-sm-4">
-                <img src="https://a.slack-edge.com/9b527/marketing/img/homepage/hp-prospect/hero/tablet/mp4/hero-image-tablet.mp4">
-            </div>
-        </div>
-     </div>
-
-                    
-                
-        
+          </div>
+     </div>      
     </section>
     <!-- end of first sections -->
 
+ 
+
+    <!-- start of film cards section-->
+    <div class="cards" style="margin: auto; max-width: 70rem; padding-top: 3rem; ">
+    <div class="card-deck">
+      <div class="card">
+        <img src="img/euphoria.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="font-family: 'Stint Ultra Expanded', cursive; " >Card title</h5>
+          <p class="card-text" style="font-family: 'Pontano Sans', sans-serif;">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/freefall.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="font-family: 'Stint Ultra Expanded', cursive; ">Card title</h5>
+          <p class="card-text" style="font-family: 'Pontano Sans', sans-serif;">This card has supporting text below as a natural lead-in to additional content.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/enemy.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title" style="font-family: 'Stint Ultra Expanded', cursive; ">Card title</h5>
+          <p class="card-text" style="font-family: 'Pontano Sans', sans-serif;">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a type="button" style="max-width: 70rem; margin:auto; margin-top: 3rem; margin-bottom: 3rem; color:  #524141; font-family: 'Stint Ultra Expanded', cursive; " class="btn btn-light btn-lg btn-block" href="schedule.html" role="button">VIEW MORE</a>
+    <!-- end of film cards section -->
+
+    <!-- start of 2nd text section  -->
+    <section style="font-family: Alegreya Sans SC; background-color: rgb(126, 45, 31); color: white; margin-bottom: 3rem;">
+      <div class="container">
+          <div class="row">
+              <div class="col">
+                <h1 style="margin-top: 3rem; font-family: 'Stint Ultra Expanded', cursive; ">THERE IS SOMETHING FOR EVERYBODY</h1>
+                <p style="margin-bottom: 3rem;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Totam esse omnis, <br>libero natus consequatur et quo nobis architecto 
+                  accusamus vel quae? <br>Quis reiciendis tempore perspiciatis accusamus nemo quod? 
+                  Quam, sequi?<br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  Totam esse omnis,</p>
+              </div>
+          </div>
+     </div>      
+    </section>
+    <!-- end of 2nd text section -->
+
+    <!-- start of 2nd film cards section-->
+    <div class="cards" style="margin: auto; max-width: 70rem;">
+      <div class="card-deck">
+        <div class="card">
+          <img src="img/atnman.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: 'Stint Ultra Expanded', cursive; ">Card title</h5>
+            <p class="card-text" style="font-family: 'Pontano Sans', sans-serif">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/civilwar.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: 'Stint Ultra Expanded', cursive; ">Card title</h5>
+            <p class="card-text" style="font-family: 'Pontano Sans', sans-serif">This card has supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="img/fifthelement.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title" style="font-family: 'Stint Ultra Expanded', cursive; ">Card title</h5>
+            <p class="card-text" style="font-family: 'Pontano Sans', sans-serif">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <a type="button" style="max-width: 70rem; margin:auto; margin-top: 3rem; margin-bottom: 3rem; color: #524141; font-family: 'Stint Ultra Expanded', cursive; " class="btn btn-light btn-lg btn-block" href="schedule.html" role="button">VIEW MORE</a>
     
+   <!-- end of 2ndfilm cards section -->
+
+
+   <footer>
+  
+   </footer>
+        
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
